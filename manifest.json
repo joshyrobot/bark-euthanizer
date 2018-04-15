@@ -1,0 +1,19 @@
+{
+  "background": {
+    "persistent": true,
+    "scripts": [ "background.js" ]
+  },
+  "description": "Block requests to Bark API, useless against connections other than the chrome extension",
+  "icons": {
+    "128": "icons/icon_on.png"
+  },
+  "manifest_version": 2,
+  "name": "Bark Euthanizer",
+  "permissions": [ "webRequest", "webRequestBlocking", "https://*.bark.us/" ],
+  "short_name": "Bark Euthanizer",
+  "version": "1.0.0",
+  "author": "joshyrobot",
+  "browser_action": {
+    "default_icon": "icons/icon_on.png"
+  }
+}
